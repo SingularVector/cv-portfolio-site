@@ -1,0 +1,28 @@
+# Dependencies and generated site
+node_modules/
+dist/
+
+# Local environment / credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+.dev.vars
+.dev.vars.*
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Build tools, logs and local editor files
+.wrangler/
+.vite/
+*.log
+.DS_Store
+.idea/
+*.swp
+*.swo
+
+# Keep backup archives outside the repository
+*.zip
