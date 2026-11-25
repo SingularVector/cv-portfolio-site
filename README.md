@@ -1,6 +1,10 @@
-# Portfolio Website
+# Daniele Catanesi — Engineering Portfolio
 
-A customizable portfolio website for presenting professional experience, technical case studies, projects, skills and an optional interactive terminal.
+[View the live portfolio and CV](https://catanesi.pages.dev/)
+
+![Live portfolio showing the infrastructure and automation introduction](docs/portfolio-preview.png)
+
+Source for my professional portfolio: infrastructure and automation experience, engineering case studies and selected open-source projects. The site also includes an optional interactive terminal.
 
 Built with React, Vite and Lucide icons. The production build is a static website suitable for Cloudflare Pages.
 
@@ -26,10 +30,10 @@ No local Node.js installation is required for this workflow.
 
 ### Clone and start
 
-Replace the example GitHub owner and repository below with your repository details. The final argument creates a local folder named `portfolio-site`.
+The final argument creates a local folder named `portfolio-site`.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git portfolio-site
+git clone https://github.com/SingularVector/cv-portfolio-site.git portfolio-site
 cd portfolio-site
 docker compose up -d
 ```
